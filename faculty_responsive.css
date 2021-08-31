@@ -1,0 +1,195 @@
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+  
+    /* CSS */
+    
+  }
+  
+  /* 
+    ##Device = Laptops, Desktops
+    ##Screen = B/w 1025px to 1280px
+  */
+  
+  @media (min-width: 1025px) and (max-width: 1280px) {
+    
+    /* CSS */
+    
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (portrait)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) {
+    
+    /* CSS */
+    
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (landscape)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    
+    /* CSS */
+    
+  }
+  
+  /* 
+    ##Device = Low Resolution Tablets, Mobiles (Landscape)
+    ##Screen = B/w 481px to 767px
+  */
+  
+  @media (min-width: 481px) and (max-width: 768px) {
+    
+    .head-3{
+      height: 100vh;
+      width: 100%;
+      position: relative;
+      background-color: rgb(145, 145, 145);
+      
+  }
+  .a-cards,.b-cards{
+      display: flex;
+      text-align: center;
+      justify-content: space-evenly;
+      /* border: 2px solid black; */
+  }
+  .a-card,.b-card{
+      background-image: linear-gradient(right, rgb(255, 255, 255), rgb(250, 247, 255));
+      /* padding: 20px; */
+      /* margin: 20px; */
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      transition: 0.5s;
+      /* border: 2px solid black; */
+      width: 200px;
+  }
+  .a-card:hover{
+      box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+  }
+  .b-card:hover{
+      box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+  }
+  .card-head img{
+      width: 100px;
+      border-radius: 50%;
+      background-color: rgb(46, 45, 58);
+  }
+  .card-head p{
+      width: 200px;
+      font-size: 10px;
+  }
+  .card-head b{
+      font-size: 15px;
+  }
+  
+  .card-head h4{
+     
+      text-transform: uppercase;
+      font-size: 30px;
+      width: fit-content;
+      margin: auto;
+  }
+  .card-head h3{
+      font-size: 15px;
+  }
+  .card-head h5{
+      font-size: 10px;
+  }
+  
+  .card-inside{
+      width: 100%;
+      top: 50%;
+      left:100%;
+      transform: translate(-100%,-50%);
+      position: absolute;
+  }
+  #bold{
+      font-size: 25px;
+  }
+    
+  }
+  
+  /* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+  
+  @media (min-width: 320px) and (max-width: 480px) {
+    
+    .head-3{
+        height: 200vh;
+        width: 100%;
+        position: relative;
+        background-color: rgb(145, 145, 145);
+        
+    }
+    .a-cards,.b-cards{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: space-evenly;
+    }
+    .a-card,.b-card{
+     
+        background-image: linear-gradient(right, rgb(255, 255, 255), rgb(250, 247, 255));
+        padding: 20px;
+        margin: 20px;
+        display: flex;
+        transition: 0.5s;
+    }
+    .a-card:hover{
+        box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+    }
+    .b-card:hover{
+        box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+    }
+    .card-head img{
+        width: 100px;
+        border-radius: 50%;
+        background-color: rgb(46, 45, 58);
+    }
+    .card-head p{
+        width: 200px;
+        font-size: 10px;
+    }
+    .card-head b{
+        font-size: 15px;
+    }
+    
+    .card-head h4{
+       
+        text-transform: uppercase;
+        font-size: 30px;
+        width: fit-content;
+        margin: auto;
+    }
+    .card-head h3{
+        font-size: 15px;
+    }
+    .card-head h5{
+        font-size: 10px;
+    }
+    
+    .card-inside{
+        width: 100%;
+        top: 50%;
+        left:100%;
+        transform: translate(-100%,-50%);
+        position: absolute;
+    }
+    #bold{
+        font-size: 25px;
+    }
+    
+    
+  }
